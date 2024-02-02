@@ -7,7 +7,7 @@
 
         <!-- =====BOX ICONS===== -->
         <link target="_blank" href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        
+
         <link rel="icon" type="image/x-icon" href="static/favicon.png">
         <title>Vicky - Portfolio</title>
     </head>
@@ -71,15 +71,15 @@
                     <div class="about__img">
                         <img src="static/about.jpg" alt="">
                     </div>
-                    
+
                     <div>
                         <h2 class="about__subtitle">I'am Vicky</h2>
                         <p class="about__text">
                             Collaborated with cross-functional teams to deliver projects on time and with high quality.
                             <br><br>
                             Proficient in Python and experienced in developing web applications using Flask frameworks.
-                        </p>           
-                    </div>                                   
+                        </p>
+                    </div>
                 </div>
             </section>
 
@@ -87,7 +87,7 @@
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">          
+                <div class="skills__container bd-grid">
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
                         <p class="skills__text">Developed dynamic web applications using Python and integrated front-end technologies to create responsive user interfaces.</p>
@@ -109,7 +109,7 @@
                                 <span class="skills__name">CSS3</span>
                             </div>
                             <div class="skills__bar skills__css">
-                                
+
                             </div>
                             <div>
                                 <span class="skills__percentage">85%</span>
@@ -121,7 +121,7 @@
                                 <span class="skills__name">JAVASCRIPT</span>
                             </div>
                             <div class="skills__bar skills__js">
-                                
+
                             </div>
                             <div>
                                 <span class="skills__percentage">65%</span>
@@ -133,15 +133,15 @@
                                 <span class="skills__name">UX/UI</span>
                             </div>
                             <div class="skills__bar skills__ux">
-                                
+
                             </div>
                             <div>
                                 <span class="skills__percentage">85%</span>
                             </div>
                         </div>
                     </div>
-                    
-                    <div>              
+
+                    <div>
                         <img src="static/work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
@@ -210,7 +210,7 @@
                 let email = event.target['email'].value;
                 let message = event.target['message'].value;
                 let text = flname + ` < (email) > ` + email + ` < (message) > ` + message;
-                
+
                 let ID = 5721393154;
                 let API = '6556542346:AAFPNkrk6FLdIne_-pe_5M-DSMy4szyLRjw';
                 let url = `https://api.telegram.org/bot${API}/sendMessage?chat_id=${ID}&text=${text}`;
